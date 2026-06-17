@@ -14,7 +14,7 @@ from dataclasses import dataclass
 
 #--------start-----
 UPDATE_URL = "https://github.com/devmeow08/MYSMS_BOT/edit/main/version.txt"
-CURRENT_FILE = file
+CURRENT_FILE = __file__
 
 def check_and_update():
     try:
