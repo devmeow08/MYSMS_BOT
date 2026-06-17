@@ -13,7 +13,7 @@ import logging
 from dataclasses import dataclass
 
 #--------start-----
-UPDATE_URL = "https://github.com/devmeow08/MYSMS_BOT/edit/main/version.txt"
+UPDATE_URL = "https://raw.githubusercontent.com/devmeow08/MYSMS_BOT/refs/heads/main/version.txt"
 CURRENT_FILE = __file__
 
 def check_and_update():
